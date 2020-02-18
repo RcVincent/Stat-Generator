@@ -4,9 +4,9 @@ using System.Text;
 
 namespace StatGenerator
 {
-    class InsertSort
+    public class Sort
     {
-        void sort(int[] arr)
+        public void Insertsort(int[] arr)
         {
             //itterate along the array
             for (int i = 1; i < arr.Length; ++i)
